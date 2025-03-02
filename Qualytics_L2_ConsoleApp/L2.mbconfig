@@ -1,0 +1,380 @@
+﻿{
+  "Scenario": "Classification",
+  "DataSource": {
+    "Version": 3,
+    "EscapeCharacter": "\"",
+    "ReadMultiLines": true,
+    "KeepDiacritics": false,
+    "KeepPunctuations": false,
+    "AllowQuoting": true,
+    "Type": "TabularFile",
+    "FilePath": "D:\\src\\My Experiments with Truth\\ML\\Qualytics\\BhavishyaVani\\BhavishyaVani\\Data\\Merged.csv",
+    "Delimiter": ",",
+    "DecimalMarker": ".",
+    "HasHeader": true,
+    "ColumnProperties": [
+      {
+        "ColumnName": "PR ID",
+        "ColumnPurpose": "Ignore",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "L0 Level",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Reported Problem Code L1",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Reported Problem Code L2",
+        "ColumnPurpose": "Label",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Reported Problem Code L3",
+        "ColumnPurpose": "Ignore",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Translated Short Description",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Translated Description",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Coding Table Revision",
+        "ColumnPurpose": "Ignore",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      }
+    ]
+  },
+  "Environment": {
+    "Type": "LocalCPU",
+    "Version": 1
+  },
+  "RunHistory": {
+    "Version": 3,
+    "Type": "Result",
+    "Trials": [
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.868766404199475,
+        "RuntimeInSeconds": 13.337,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e7 * e11",
+          "e0": {
+            "InputColumnName": "L0 Level",
+            "OutputColumnName": "L0 Level"
+          },
+          "e1": {
+            "InputColumnName": "Reported Problem Code L1",
+            "OutputColumnName": "Reported Problem Code L1"
+          },
+          "e11": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "InputColumnName": "Translated Short Description",
+            "OutputColumnName": "Translated Short Description"
+          },
+          "e3": {
+            "InputColumnName": "Translated Description",
+            "OutputColumnName": "Translated Description"
+          },
+          "e4": {
+            "InputColumnNames": [
+              "L0 Level",
+              "Reported Problem Code L1",
+              "Translated Short Description",
+              "Translated Description"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e5": {
+            "OutputColumnName": "Reported Problem Code L2",
+            "InputColumnName": "Reported Problem Code L2",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e7": {
+            "L1Regularization": 0.049447205,
+            "L2Regularization": 0.187112,
+            "LabelColumnName": "Reported Problem Code L2",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.86614173228346458,
+        "RuntimeInSeconds": 12.466,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e7 * e11",
+          "e0": {
+            "InputColumnName": "L0 Level",
+            "OutputColumnName": "L0 Level"
+          },
+          "e1": {
+            "InputColumnName": "Reported Problem Code L1",
+            "OutputColumnName": "Reported Problem Code L1"
+          },
+          "e11": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "InputColumnName": "Translated Short Description",
+            "OutputColumnName": "Translated Short Description"
+          },
+          "e3": {
+            "InputColumnName": "Translated Description",
+            "OutputColumnName": "Translated Description"
+          },
+          "e4": {
+            "InputColumnNames": [
+              "L0 Level",
+              "Reported Problem Code L1",
+              "Translated Short Description",
+              "Translated Description"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e5": {
+            "OutputColumnName": "Reported Problem Code L2",
+            "InputColumnName": "Reported Problem Code L2",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e7": {
+            "L1Regularization": 0.03228638,
+            "L2Regularization": 0.11992013,
+            "LabelColumnName": "Reported Problem Code L2",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.863517060367454,
+        "RuntimeInSeconds": 15.75,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e7 * e11",
+          "e0": {
+            "InputColumnName": "L0 Level",
+            "OutputColumnName": "L0 Level"
+          },
+          "e1": {
+            "InputColumnName": "Reported Problem Code L1",
+            "OutputColumnName": "Reported Problem Code L1"
+          },
+          "e11": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "InputColumnName": "Translated Short Description",
+            "OutputColumnName": "Translated Short Description"
+          },
+          "e3": {
+            "InputColumnName": "Translated Description",
+            "OutputColumnName": "Translated Description"
+          },
+          "e4": {
+            "InputColumnNames": [
+              "L0 Level",
+              "Reported Problem Code L1",
+              "Translated Short Description",
+              "Translated Description"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e5": {
+            "OutputColumnName": "Reported Problem Code L2",
+            "InputColumnName": "Reported Problem Code L2",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e7": {
+            "L1Regularization": 0.25827768,
+            "L2Regularization": 0.121691376,
+            "LabelColumnName": "Reported Problem Code L2",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.863517060367454,
+        "RuntimeInSeconds": 13.38,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e7 * e11",
+          "e0": {
+            "InputColumnName": "L0 Level",
+            "OutputColumnName": "L0 Level"
+          },
+          "e1": {
+            "InputColumnName": "Reported Problem Code L1",
+            "OutputColumnName": "Reported Problem Code L1"
+          },
+          "e11": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "InputColumnName": "Translated Short Description",
+            "OutputColumnName": "Translated Short Description"
+          },
+          "e3": {
+            "InputColumnName": "Translated Description",
+            "OutputColumnName": "Translated Description"
+          },
+          "e4": {
+            "InputColumnNames": [
+              "L0 Level",
+              "Reported Problem Code L1",
+              "Translated Short Description",
+              "Translated Description"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e5": {
+            "OutputColumnName": "Reported Problem Code L2",
+            "InputColumnName": "Reported Problem Code L2",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e7": {
+            "L1Regularization": 0.03125,
+            "L2Regularization": 0.07972511,
+            "LabelColumnName": "Reported Problem Code L2",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.863517060367454,
+        "RuntimeInSeconds": 13.249,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e7 * e11",
+          "e0": {
+            "InputColumnName": "L0 Level",
+            "OutputColumnName": "L0 Level"
+          },
+          "e1": {
+            "InputColumnName": "Reported Problem Code L1",
+            "OutputColumnName": "Reported Problem Code L1"
+          },
+          "e11": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "InputColumnName": "Translated Short Description",
+            "OutputColumnName": "Translated Short Description"
+          },
+          "e3": {
+            "InputColumnName": "Translated Description",
+            "OutputColumnName": "Translated Description"
+          },
+          "e4": {
+            "InputColumnNames": [
+              "L0 Level",
+              "Reported Problem Code L1",
+              "Translated Short Description",
+              "Translated Description"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e5": {
+            "OutputColumnName": "Reported Problem Code L2",
+            "InputColumnName": "Reported Problem Code L2",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e7": {
+            "L1Regularization": 0.03125,
+            "L2Regularization": 0.08253857,
+            "LabelColumnName": "Reported Problem Code L2",
+            "FeatureColumnName": "Features"
+          }
+        }
+      }
+    ],
+    "Estimators": {
+      "e0": "FeaturizeText",
+      "e1": "FeaturizeText",
+      "e2": "FeaturizeText",
+      "e3": "FeaturizeText",
+      "e4": "Concatenate",
+      "e5": "MapValueToKey",
+      "e6": "LightGbmMulti",
+      "e7": "LbfgsLogisticRegressionOva",
+      "e8": "LbfgsMaximumEntropyMulti",
+      "e9": "SdcaMaximumEntropyMulti",
+      "e10": "SdcaLogisticRegressionOva",
+      "e11": "MapKeyToValue"
+    },
+    "Schema": "e0 * e1 * e2 * e3 * e4 * e5 * (e6 + e7 + e8 + e9 + e10) * e11",
+    "MetricName": "MicroAccuracy",
+    "ModelFilePath": "D:\\src\\My Experiments with Truth\\ML\\Qualytics\\BhavishyaVani\\BhavishyaVani\\L2.mlnet"
+  },
+  "Type": "TrainingConfig",
+  "Version": 5,
+  "TrainingOption": {
+    "Version": 2,
+    "Subsampling": false,
+    "Tuner": "eci-cfo",
+    "Type": "ClassificationTrainingOption",
+    "TrainingTime": 1800,
+    "OptimizeMetric": "MicroAccuracy",
+    "LabelColumn": "Reported Problem Code L2",
+    "AvailableTrainers": [
+      "SDCA",
+      "LBFGS",
+      "LGBM"
+    ],
+    "ValidationOption": {
+      "Version": 0,
+      "Type": "TrainValidateSplitValidationOption",
+      "SplitRatio": 0.1
+    }
+  }
+}
