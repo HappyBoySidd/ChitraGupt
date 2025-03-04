@@ -69,6 +69,48 @@ namespace ChitraGupt.API.Services
             }
         }
 
+        public Tuple<string, string, string> PredictReportedCodeValue(string strDescription, string strShortDescription, string strL0)
+        {
+            try
+            {
+                L1.ModelInput sampleData1 = new()
+                {
+                    L0_Level = strL0,
+                    Translated_Short_Description = strShortDescription,
+                    Translated_Description = strDescription,
+                };
+                var sortedScoresWithLabel = L1.PredictAllLabels(sampleData1);
+                var strL1 = GetBestSuitedPrediction(sortedScoresWithLabel);
+
+                L2.ModelInput sampleData2 = new()
+                {
+                    L0_Level = strL0,
+                    Translated_Short_Description = strShortDescription,
+                    Translated_Description = strDescription,
+                    Reported_Problem_Code_L1 = strL1
+                };
+                sortedScoresWithLabel = L2.PredictAllLabels(sampleData2);
+                var strL2 = GetBestSuitedPrediction(sortedScoresWithLabel);
+
+                L3.ModelInput sampleData3 = new()
+                {
+                    L0_Level = strL0,
+                    Translated_Short_Description = strShortDescription,
+                    Translated_Description = strDescription,
+                    Reported_Problem_Code_L1 = strL1,
+                    Reported_Problem_Code_L2 = strL2
+                };
+                sortedScoresWithLabel = L3.PredictAllLabels(sampleData3);
+                var strL3 = GetBestSuitedPrediction(sortedScoresWithLabel);
+
+                return Tuple.Create(strL0, strL1, strL3);
+            }
+            catch (Exception)
+            {
+                return Tuple.Create("Error: Internal Server Error", string.Empty, string.Empty);
+            }
+        }
+
         private static string GetBestSuitedPrediction(IOrderedEnumerable<KeyValuePair<string, float>> sortedScoresWithLabel)
         {
             if (sortedScoresWithLabel.Any())
