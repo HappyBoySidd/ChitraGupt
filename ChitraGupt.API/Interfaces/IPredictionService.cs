@@ -5,5 +5,6 @@
         string PredictL1(string strDescription, string strShortDescription, string strL0);
         string PredictL2(string strDescription, string strShortDescription, string strL0, string strL1);
         string PredictL3(string strDescription, string strShortDescription, string strL0, string strL1, string strL2);
+        Tuple<string, string, string> PredictReportedCodeValue(string strDescription, string strShortDescription, string strL0);
     }
 }
