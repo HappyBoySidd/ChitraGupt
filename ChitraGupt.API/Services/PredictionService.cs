@@ -103,7 +103,7 @@ namespace ChitraGupt.API.Services
                 sortedScoresWithLabel = L3.PredictAllLabels(sampleData3);
                 var strL3 = GetBestSuitedPrediction(sortedScoresWithLabel);
 
-                return Tuple.Create(strL0, strL1, strL3);
+                return Tuple.Create(strL1, strL2, strL3);
             }
             catch (Exception)
             {
