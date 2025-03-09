@@ -1,10 +1,12 @@
+using ChitraGupt.API.Interfaces;
 using ChitraGupt.API.Services;
-using Chitragupt_API.Interfaces;
+using TranslationAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddSingleton<IPredictionService, PredictionService>();
+builder.Services.AddSingleton<ITranslate, GoogleTranslatorService>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
