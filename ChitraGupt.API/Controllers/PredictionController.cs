@@ -48,14 +48,14 @@ namespace ChitraGupt.API.Controllers
         [Route("ChitraGupt/ReportedCodes")]
         public IActionResult PredictReportedCodes(string description, string shortDescription, string strL0)
         {
-            var tplPredictedValue = _predictionService.PredictReportedCodeValue(description.Trim(), shortDescription.Trim(), strL0.Trim());
-            if (tplPredictedValue.Item1.Trim().StartsWith("Error"))
-                return StatusCode(StatusCodes.Status500InternalServerError, tplPredictedValue.Item1);
+            var (strL1, strL2, strL3, strStatus) = _predictionService.PredictReportedCodeValue(description.Trim(), shortDescription.Trim(), strL0.Trim());
+            if (strStatus.Trim().StartsWith("Error"))
+                return StatusCode(StatusCodes.Status500InternalServerError, strStatus);
             return Ok(new
             {
-                L1 = tplPredictedValue.Item1,
-                L2 = tplPredictedValue.Item2,
-                L3 = tplPredictedValue.Item3
+                L1 = strL1,
+                L2 = strL2,
+                L3 = strL3
             });
         }
     }
