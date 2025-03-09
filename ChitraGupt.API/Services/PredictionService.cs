@@ -1,4 +1,4 @@
-using Chitragupt_API.Interfaces;
+using ChitraGupt.API.Interfaces;
 using Qualytics_L1_ConsoleApp;
 using Qualytics_L2_ConsoleApp;
 using Qualytics_L3_ConsoleApp;
