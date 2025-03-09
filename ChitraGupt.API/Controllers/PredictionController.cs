@@ -1,4 +1,4 @@
-using Chitragupt_API.Interfaces;
+using ChitraGupt.API.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
