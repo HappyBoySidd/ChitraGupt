@@ -1,4 +1,4 @@
-namespace Chitragupt_API.Interfaces
+namespace ChitraGupt.API.Interfaces
 {
     public interface IPredictionService
     {
