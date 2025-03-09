@@ -1,4 +1,4 @@
-﻿using Chitragupt_API.Interfaces;
+using Chitragupt_API.Interfaces;
 using Qualytics_L1_ConsoleApp;
 using Qualytics_L2_ConsoleApp;
 using Qualytics_L3_ConsoleApp;
@@ -69,7 +69,7 @@ namespace ChitraGupt.API.Services
             }
         }
 
-        public Tuple<string, string, string> PredictReportedCodeValue(string strDescription, string strShortDescription, string strL0)
+        public (string strL1, string strL2, string strL3, string strStatus) PredictReportedCodeValue(string strDescription, string strShortDescription, string strL0)
         {
             try
             {
@@ -103,11 +103,14 @@ namespace ChitraGupt.API.Services
                 sortedScoresWithLabel = L3.PredictAllLabels(sampleData3);
                 var strL3 = GetBestSuitedPrediction(sortedScoresWithLabel);
 
-                return Tuple.Create(strL1, strL2, strL3);
+                var strStatus = "Success";
+
+                return (strL1, strL2, strL3, strStatus);
             }
             catch (Exception)
             {
-                return Tuple.Create("Error: Internal Server Error", string.Empty, string.Empty);
+                var strStatus = "Error: Internal Server Error";
+                return (string.Empty, string.Empty, string.Empty, strStatus);
             }
         }
 
