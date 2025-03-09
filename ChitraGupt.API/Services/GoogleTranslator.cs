@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web;
@@ -6,7 +6,7 @@ using ChitraGupt.API.Interfaces;
 
 namespace TranslationAPI.Services
 {
-    public class GoogleTranslator : ITranslate
+    public class GoogleTranslatorService : ITranslate
     {
         private static readonly HttpClient client = new HttpClient();
 
