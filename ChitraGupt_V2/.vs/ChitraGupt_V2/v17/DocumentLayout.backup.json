@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\320274721\\source\\repos\\ChitraGupt_V2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C34D9E7B-EA47-458B-A9CE-03E1DD52BB72}|ChitraGupt_V2\\ChitraGupt_V2.csproj|c:\\users\\320274721\\source\\repos\\chitragupt_v2\\chitragupt_v2\\features\\prediction\\models\\l3\\l3.consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C34D9E7B-EA47-458B-A9CE-03E1DD52BB72}|ChitraGupt_V2\\ChitraGupt_V2.csproj|solutionrelative:chitragupt_v2\\features\\prediction\\models\\l3\\l3.consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C34D9E7B-EA47-458B-A9CE-03E1DD52BB72}|ChitraGupt_V2\\ChitraGupt_V2.csproj|c:\\users\\320274721\\source\\repos\\chitragupt_v2\\chitragupt_v2\\features\\prediction\\models\\l2\\l2.consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C34D9E7B-EA47-458B-A9CE-03E1DD52BB72}|ChitraGupt_V2\\ChitraGupt_V2.csproj|solutionrelative:chitragupt_v2\\features\\prediction\\models\\l2\\l2.consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C34D9E7B-EA47-458B-A9CE-03E1DD52BB72}|ChitraGupt_V2\\ChitraGupt_V2.csproj|c:\\users\\320274721\\source\\repos\\chitragupt_v2\\chitragupt_v2\\features\\prediction\\models\\l1\\l1.consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C34D9E7B-EA47-458B-A9CE-03E1DD52BB72}|ChitraGupt_V2\\ChitraGupt_V2.csproj|solutionrelative:chitragupt_v2\\features\\prediction\\models\\l1\\l1.consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C34D9E7B-EA47-458B-A9CE-03E1DD52BB72}|ChitraGupt_V2\\ChitraGupt_V2.csproj|c:\\users\\320274721\\source\\repos\\chitragupt_v2\\chitragupt_v2\\features\\prediction\\models\\l0\\l0consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C34D9E7B-EA47-458B-A9CE-03E1DD52BB72}|ChitraGupt_V2\\ChitraGupt_V2.csproj|solutionrelative:chitragupt_v2\\features\\prediction\\models\\l0\\l0consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "L3.consumption.cs",
+              "DocumentMoniker": "C:\\Users\\320274721\\source\\repos\\ChitraGupt_V2\\ChitraGupt_V2\\Features\\Prediction\\Models\\L3\\L3.consumption.cs",
+              "RelativeDocumentMoniker": "ChitraGupt_V2\\Features\\Prediction\\Models\\L3\\L3.consumption.cs",
+              "ToolTip": "C:\\Users\\320274721\\source\\repos\\ChitraGupt_V2\\ChitraGupt_V2\\Features\\Prediction\\Models\\L3\\L3.consumption.cs",
+              "RelativeToolTip": "ChitraGupt_V2\\Features\\Prediction\\Models\\L3\\L3.consumption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T11:03:42.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "L1.consumption.cs",
+              "DocumentMoniker": "C:\\Users\\320274721\\source\\repos\\ChitraGupt_V2\\ChitraGupt_V2\\Features\\Prediction\\Models\\L1\\L1.consumption.cs",
+              "RelativeDocumentMoniker": "ChitraGupt_V2\\Features\\Prediction\\Models\\L1\\L1.consumption.cs",
+              "ToolTip": "C:\\Users\\320274721\\source\\repos\\ChitraGupt_V2\\ChitraGupt_V2\\Features\\Prediction\\Models\\L1\\L1.consumption.cs",
+              "RelativeToolTip": "ChitraGupt_V2\\Features\\Prediction\\Models\\L1\\L1.consumption.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T11:03:41.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "L0Consumption.cs",
+              "DocumentMoniker": "C:\\Users\\320274721\\source\\repos\\ChitraGupt_V2\\ChitraGupt_V2\\Features\\Prediction\\Models\\L0\\L0Consumption.cs",
+              "RelativeDocumentMoniker": "ChitraGupt_V2\\Features\\Prediction\\Models\\L0\\L0Consumption.cs",
+              "ToolTip": "C:\\Users\\320274721\\source\\repos\\ChitraGupt_V2\\ChitraGupt_V2\\Features\\Prediction\\Models\\L0\\L0Consumption.cs",
+              "RelativeToolTip": "ChitraGupt_V2\\Features\\Prediction\\Models\\L0\\L0Consumption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T11:03:39.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "L2.consumption.cs",
+              "DocumentMoniker": "C:\\Users\\320274721\\source\\repos\\ChitraGupt_V2\\ChitraGupt_V2\\Features\\Prediction\\Models\\L2\\L2.consumption.cs",
+              "RelativeDocumentMoniker": "ChitraGupt_V2\\Features\\Prediction\\Models\\L2\\L2.consumption.cs",
+              "ToolTip": "C:\\Users\\320274721\\source\\repos\\ChitraGupt_V2\\ChitraGupt_V2\\Features\\Prediction\\Models\\L2\\L2.consumption.cs",
+              "RelativeToolTip": "ChitraGupt_V2\\Features\\Prediction\\Models\\L2\\L2.consumption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T11:03:38.849Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

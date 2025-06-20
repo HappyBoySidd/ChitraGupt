@@ -1,0 +1,6 @@
+@ChitraGupt_V2_HostAddress = http://localhost:5223
+
+GET {{ChitraGupt_V2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

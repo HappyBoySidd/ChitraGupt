@@ -1,0 +1,153 @@
+[
+  {
+    "ContainingType": "ChitraGupt_V2.Features.Prediction.Controllers.PredictionController",
+    "Method": "PredictL0",
+    "RelativePath": "Prediction/v1/PredictReportedProblemCodeL0",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "shortDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChitraGupt_V2.Features.Prediction.Controllers.PredictionController",
+    "Method": "PredictL1",
+    "RelativePath": "Prediction/v1/PredictReportedProblemCodeL1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "shortDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "strL0",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChitraGupt_V2.Features.Prediction.Controllers.PredictionController",
+    "Method": "PredictL2",
+    "RelativePath": "Prediction/v1/PredictReportedProblemCodeL2",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "shortDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "strL0",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "strL1",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChitraGupt_V2.Features.Prediction.Controllers.PredictionController",
+    "Method": "PredictL3",
+    "RelativePath": "Prediction/v1/PredictReportedProblemCodeL3",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "shortDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "strL0",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "strL1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "strL2",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChitraGupt_V2.Features.Prediction.Controllers.PredictionController",
+    "Method": "PredictReportedCodes",
+    "RelativePath": "Prediction/v1/PredictReportedProblemCodes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "shortDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Translate.API.Controllers.TranslationController",
+    "Method": "TranslateText",
+    "RelativePath": "Translation/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "strText",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
