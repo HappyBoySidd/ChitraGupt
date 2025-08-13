@@ -1,0 +1,329 @@
+﻿{
+  "Scenario": "Classification",
+  "DataSource": {
+    "Version": 3,
+    "EscapeCharacter": "\"",
+    "ReadMultiLines": true,
+    "KeepDiacritics": false,
+    "KeepPunctuations": false,
+    "AllowQuoting": true,
+    "Type": "TabularFile",
+    "FilePath": "C:\\Datatoclean\\TrainingDataset.csv",
+    "Delimiter": ",",
+    "DecimalMarker": ".",
+    "HasHeader": true,
+    "ColumnProperties": [
+      {
+        "ColumnName": "Description",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Short Description",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Source Notes",
+        "ColumnPurpose": "Ignore",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Reported Problem Code L0",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Reported Problem Code L1",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Reported Problem Code L2",
+        "ColumnPurpose": "Label",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Reported Problem Code L3",
+        "ColumnPurpose": "Ignore",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      }
+    ]
+  },
+  "Environment": {
+    "Type": "LocalCPU",
+    "Version": 1
+  },
+  "RunHistory": {
+    "Version": 3,
+    "Type": "Result",
+    "Trials": [
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.79038317054845986,
+        "RuntimeInSeconds": 383.403,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e8 * e11",
+          "e0": {
+            "InputColumnName": "Description",
+            "OutputColumnName": "Description"
+          },
+          "e1": {
+            "InputColumnName": "Short Description",
+            "OutputColumnName": "Short Description"
+          },
+          "e11": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "InputColumnName": "Reported Problem Code L0",
+            "OutputColumnName": "Reported Problem Code L0"
+          },
+          "e3": {
+            "InputColumnName": "Reported Problem Code L1",
+            "OutputColumnName": "Reported Problem Code L1"
+          },
+          "e4": {
+            "InputColumnNames": [
+              "Description",
+              "Short Description",
+              "Reported Problem Code L0",
+              "Reported Problem Code L1"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e5": {
+            "OutputColumnName": "Reported Problem Code L2",
+            "InputColumnName": "Reported Problem Code L2",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e8": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "Reported Problem Code L2",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.61758076634109693,
+        "RuntimeInSeconds": 11.161,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e11",
+          "e0": {
+            "InputColumnName": "Description",
+            "OutputColumnName": "Description"
+          },
+          "e1": {
+            "InputColumnName": "Short Description",
+            "OutputColumnName": "Short Description"
+          },
+          "e11": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "InputColumnName": "Reported Problem Code L0",
+            "OutputColumnName": "Reported Problem Code L0"
+          },
+          "e3": {
+            "InputColumnName": "Reported Problem Code L1",
+            "OutputColumnName": "Reported Problem Code L1"
+          },
+          "e4": {
+            "InputColumnNames": [
+              "Description",
+              "Short Description",
+              "Reported Problem Code L0",
+              "Reported Problem Code L1"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e5": {
+            "OutputColumnName": "Reported Problem Code L2",
+            "InputColumnName": "Reported Problem Code L2",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e6": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "LearningRate": 1.0,
+            "NumberOfTrees": 4,
+            "SubsampleFraction": 1.0,
+            "MaximumBinCountPerFeature": 254,
+            "FeatureFraction": 1.0,
+            "L1Regularization": 2E-10,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "Reported Problem Code L2",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.48309541697971448,
+        "RuntimeInSeconds": 19.931,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e9 * e11",
+          "e0": {
+            "InputColumnName": "Description",
+            "OutputColumnName": "Description"
+          },
+          "e1": {
+            "InputColumnName": "Short Description",
+            "OutputColumnName": "Short Description"
+          },
+          "e11": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "InputColumnName": "Reported Problem Code L0",
+            "OutputColumnName": "Reported Problem Code L0"
+          },
+          "e3": {
+            "InputColumnName": "Reported Problem Code L1",
+            "OutputColumnName": "Reported Problem Code L1"
+          },
+          "e4": {
+            "InputColumnNames": [
+              "Description",
+              "Short Description",
+              "Reported Problem Code L0",
+              "Reported Problem Code L1"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e5": {
+            "OutputColumnName": "Reported Problem Code L2",
+            "InputColumnName": "Reported Problem Code L2",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e9": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 0.1,
+            "LabelColumnName": "Reported Problem Code L2",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "SdcaLogisticRegressionOva",
+        "Score": 0.23140495867768596,
+        "RuntimeInSeconds": 203.312,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e10 * e11",
+          "e0": {
+            "InputColumnName": "Description",
+            "OutputColumnName": "Description"
+          },
+          "e1": {
+            "InputColumnName": "Short Description",
+            "OutputColumnName": "Short Description"
+          },
+          "e10": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 0.1,
+            "LabelColumnName": "Reported Problem Code L2",
+            "FeatureColumnName": "Features"
+          },
+          "e11": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "InputColumnName": "Reported Problem Code L0",
+            "OutputColumnName": "Reported Problem Code L0"
+          },
+          "e3": {
+            "InputColumnName": "Reported Problem Code L1",
+            "OutputColumnName": "Reported Problem Code L1"
+          },
+          "e4": {
+            "InputColumnNames": [
+              "Description",
+              "Short Description",
+              "Reported Problem Code L0",
+              "Reported Problem Code L1"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e5": {
+            "OutputColumnName": "Reported Problem Code L2",
+            "InputColumnName": "Reported Problem Code L2",
+            "AddKeyValueAnnotationsAsText": false
+          }
+        }
+      }
+    ],
+    "Estimators": {
+      "e0": "FeaturizeText",
+      "e1": "FeaturizeText",
+      "e2": "FeaturizeText",
+      "e3": "FeaturizeText",
+      "e4": "Concatenate",
+      "e5": "MapValueToKey",
+      "e6": "LightGbmMulti",
+      "e7": "LbfgsLogisticRegressionOva",
+      "e8": "LbfgsMaximumEntropyMulti",
+      "e9": "SdcaMaximumEntropyMulti",
+      "e10": "SdcaLogisticRegressionOva",
+      "e11": "MapKeyToValue"
+    },
+    "Schema": "e0 * e1 * e2 * e3 * e4 * e5 * (e6 + e7 + e8 + e9 + e10) * e11",
+    "MetricName": "MicroAccuracy",
+    "ModelFilePath": "C:\\finalBhavisyani\\NewBhavishyvani\\BhavishyaVani\\L2.mlnet"
+  },
+  "Type": "TrainingConfig",
+  "Version": 5,
+  "TrainingOption": {
+    "Version": 2,
+    "Subsampling": false,
+    "Tuner": "eci-cfo",
+    "Type": "ClassificationTrainingOption",
+    "TrainingTime": 900,
+    "OptimizeMetric": "MicroAccuracy",
+    "LabelColumn": "Reported Problem Code L2",
+    "AvailableTrainers": [
+      "SDCA",
+      "LBFGS",
+      "LGBM"
+    ],
+    "ValidationOption": {
+      "Version": 0,
+      "Type": "TrainValidateSplitValidationOption",
+      "SplitRatio": 0.1
+    }
+  }
+}

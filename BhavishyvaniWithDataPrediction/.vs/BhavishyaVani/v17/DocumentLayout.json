@@ -1,0 +1,449 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB568E67-47A1-4252-BF4D-3F3857B0D881}|ConsoleApp1\\DataPrediction.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB568E67-47A1-4252-BF4D-3F3857B0D881}|ConsoleApp1\\DataPrediction.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB568E67-47A1-4252-BF4D-3F3857B0D881}|ConsoleApp1\\DataPrediction.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\consoleapp1\\dataprediction.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FB568E67-47A1-4252-BF4D-3F3857B0D881}|ConsoleApp1\\DataPrediction.csproj|solutionrelative:consoleapp1\\dataprediction.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\chitragupt.api\\services\\predictionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|solutionrelative:chitragupt.api\\services\\predictionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\chitragupt.api\\chitragupt.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|solutionrelative:chitragupt.api\\chitragupt.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\chitragupt.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|solutionrelative:chitragupt.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35945346-3151-4346-B783-6D96EAF0DA53}|BhavishyaVani\\BhavishyaVani.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\bhavishyavani\\l1.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}",
+      "RelativeMoniker": "D:0:0:{35945346-3151-4346-B783-6D96EAF0DA53}|BhavishyaVani\\BhavishyaVani.csproj|solutionrelative:bhavishyavani\\l1.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\chitragupt.api\\mlconfigurations\\l0.consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|solutionrelative:chitragupt.api\\mlconfigurations\\l0.consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59527E76-298A-44BE-B718-5D2FAD3EC260}|ChitraGupt.Console\\ChitraGupt.Console.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\chitragupt.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59527E76-298A-44BE-B718-5D2FAD3EC260}|ChitraGupt.Console\\ChitraGupt.Console.csproj|solutionrelative:chitragupt.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\chitragupt.api\\controllers\\predictioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|solutionrelative:chitragupt.api\\controllers\\predictioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\chitragupt.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|solutionrelative:chitragupt.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\chitragupt.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|solutionrelative:chitragupt.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\chitragupt.api\\interfaces\\ipredictionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|solutionrelative:chitragupt.api\\interfaces\\ipredictionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\chitragupt.api\\models\\reportedissue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|solutionrelative:chitragupt.api\\models\\reportedissue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\chitragupt.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|solutionrelative:chitragupt.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\chitragupt.api\\chitragupt.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|solutionrelative:chitragupt.api\\chitragupt.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\chitragupt.api\\mlconfigurations\\l0.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}",
+      "RelativeMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|solutionrelative:chitragupt.api\\mlconfigurations\\l0.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\chitragupt.api\\mlconfigurations\\l2.consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|solutionrelative:chitragupt.api\\mlconfigurations\\l2.consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E176A4C8-0BA4-F5B6-B6F0-FE4E6343ABEB}|Qualytics_L0_ConsoleApp\\Qualytics_L0_ConsoleApp.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\qualytics_l0_consoleapp\\l0.consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E176A4C8-0BA4-F5B6-B6F0-FE4E6343ABEB}|Qualytics_L0_ConsoleApp\\Qualytics_L0_ConsoleApp.csproj|solutionrelative:qualytics_l0_consoleapp\\l0.consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\chitragupt.api\\mlconfigurations\\l1.consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|solutionrelative:chitragupt.api\\mlconfigurations\\l1.consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E176A4C8-0BA4-F5B6-B6F0-FE4E6343ABEB}|Qualytics_L0_ConsoleApp\\Qualytics_L0_ConsoleApp.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\qualytics_l0_consoleapp\\l0.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}",
+      "RelativeMoniker": "D:0:0:{E176A4C8-0BA4-F5B6-B6F0-FE4E6343ABEB}|Qualytics_L0_ConsoleApp\\Qualytics_L0_ConsoleApp.csproj|solutionrelative:qualytics_l0_consoleapp\\l0.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E176A4C8-0BA4-F5B6-B6F0-FE4E6343ABEB}|Qualytics_L0_ConsoleApp\\Qualytics_L0_ConsoleApp.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\qualytics_l0_consoleapp\\l0.evaluate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E176A4C8-0BA4-F5B6-B6F0-FE4E6343ABEB}|Qualytics_L0_ConsoleApp\\Qualytics_L0_ConsoleApp.csproj|solutionrelative:qualytics_l0_consoleapp\\l0.evaluate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B4B53A-8182-5859-CB81-D163EE08AEEC}|Qualytics_L1_ConsoleApp\\Qualytics_L1_ConsoleApp.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\qualytics_l1_consoleapp\\l1.consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B4B53A-8182-5859-CB81-D163EE08AEEC}|Qualytics_L1_ConsoleApp\\Qualytics_L1_ConsoleApp.csproj|solutionrelative:qualytics_l1_consoleapp\\l1.consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\chitragupt.api\\mlconfigurations\\l0.evaluate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|solutionrelative:chitragupt.api\\mlconfigurations\\l0.evaluate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\chitragupt.api\\services\\googletranslator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|solutionrelative:chitragupt.api\\services\\googletranslator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59527E76-298A-44BE-B718-5D2FAD3EC260}|ChitraGupt.Console\\ChitraGupt.Console.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\chitragupt.console\\reportedissue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59527E76-298A-44BE-B718-5D2FAD3EC260}|ChitraGupt.Console\\ChitraGupt.Console.csproj|solutionrelative:chitragupt.console\\reportedissue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|c:\\finalbhavisyani\\chitragupt\\bhavishyvaniwithdataprediction\\chitragupt.api\\controllers\\translationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5970FF82-9C7A-44C5-849D-E53B20169EDF}|ChitraGupt.API\\ChitraGupt.API.csproj|solutionrelative:chitragupt.api\\controllers\\translationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataPrediction.csproj",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ConsoleApp1\\DataPrediction.csproj",
+              "RelativeDocumentMoniker": "ConsoleApp1\\DataPrediction.csproj",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ConsoleApp1\\DataPrediction.csproj",
+              "RelativeToolTip": "ConsoleApp1\\DataPrediction.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-30T11:46:47.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:45:23.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChitraGupt.API.csproj",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\ChitraGupt.API.csproj",
+              "RelativeDocumentMoniker": "ChitraGupt.API\\ChitraGupt.API.csproj",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\ChitraGupt.API.csproj",
+              "RelativeToolTip": "ChitraGupt.API\\ChitraGupt.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-30T11:41:21.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "L1.mbconfig",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\BhavishyaVani\\L1.mbconfig",
+              "RelativeDocumentMoniker": "BhavishyaVani\\L1.mbconfig",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\BhavishyaVani\\L1.mbconfig",
+              "RelativeToolTip": "BhavishyaVani\\L1.mbconfig",
+              "Icon": "7f5c38b0-f0bc-4551-a9a8-b4f467cc4670.000012|",
+              "WhenOpened": "2025-07-28T13:22:59.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\Program.cs",
+              "RelativeDocumentMoniker": "ChitraGupt.API\\Program.cs",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\Program.cs",
+              "RelativeToolTip": "ChitraGupt.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T17:58:42.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PredictionService.cs",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\Services\\PredictionService.cs",
+              "RelativeDocumentMoniker": "ChitraGupt.API\\Services\\PredictionService.cs",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\Services\\PredictionService.cs",
+              "RelativeToolTip": "ChitraGupt.API\\Services\\PredictionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T15:53:33.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "L0.consumption.cs",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\MLConfigurations\\L0.consumption.cs",
+              "RelativeDocumentMoniker": "ChitraGupt.API\\MLConfigurations\\L0.consumption.cs",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\MLConfigurations\\L0.consumption.cs",
+              "RelativeToolTip": "ChitraGupt.API\\MLConfigurations\\L0.consumption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T04:27:29.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReportedIssue.cs",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\Models\\ReportedIssue.cs",
+              "RelativeDocumentMoniker": "ChitraGupt.API\\Models\\ReportedIssue.cs",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\Models\\ReportedIssue.cs",
+              "RelativeToolTip": "ChitraGupt.API\\Models\\ReportedIssue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T15:26:02.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IPredictionService.cs",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\Interfaces\\IPredictionService.cs",
+              "RelativeDocumentMoniker": "ChitraGupt.API\\Interfaces\\IPredictionService.cs",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\Interfaces\\IPredictionService.cs",
+              "RelativeToolTip": "ChitraGupt.API\\Interfaces\\IPredictionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T17:32:36.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\appsettings.json",
+              "RelativeDocumentMoniker": "ChitraGupt.API\\appsettings.json",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\appsettings.json",
+              "RelativeToolTip": "ChitraGupt.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-18T16:40:08.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ChitraGupt.API\\appsettings.Development.json",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\appsettings.Development.json",
+              "RelativeToolTip": "ChitraGupt.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-25T05:29:58.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.Console\\Program.cs",
+              "RelativeDocumentMoniker": "ChitraGupt.Console\\Program.cs",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.Console\\Program.cs",
+              "RelativeToolTip": "ChitraGupt.Console\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T21:40:32.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PredictionController.cs",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\Controllers\\PredictionController.cs",
+              "RelativeDocumentMoniker": "ChitraGupt.API\\Controllers\\PredictionController.cs",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\Controllers\\PredictionController.cs",
+              "RelativeToolTip": "ChitraGupt.API\\Controllers\\PredictionController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAA3wAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T15:51:46.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ChitraGupt.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ChitraGupt.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-15T21:30:41.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ChitraGupt.API",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\ChitraGupt.API.csproj",
+              "RelativeDocumentMoniker": "ChitraGupt.API\\ChitraGupt.API.csproj",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\ChitraGupt.API.csproj",
+              "RelativeToolTip": "ChitraGupt.API\\ChitraGupt.API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-15T21:25:58.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "L0.consumption.cs",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\Qualytics_L0_ConsoleApp\\L0.consumption.cs",
+              "RelativeDocumentMoniker": "Qualytics_L0_ConsoleApp\\L0.consumption.cs",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\Qualytics_L0_ConsoleApp\\L0.consumption.cs",
+              "RelativeToolTip": "Qualytics_L0_ConsoleApp\\L0.consumption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:12:05.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "L2.consumption.cs",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\MLConfigurations\\L2.consumption.cs",
+              "RelativeDocumentMoniker": "ChitraGupt.API\\MLConfigurations\\L2.consumption.cs",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\MLConfigurations\\L2.consumption.cs",
+              "RelativeToolTip": "ChitraGupt.API\\MLConfigurations\\L2.consumption.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:15:55.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "L0.mbconfig",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\MLConfigurations\\L0.mbconfig",
+              "RelativeDocumentMoniker": "ChitraGupt.API\\MLConfigurations\\L0.mbconfig",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\MLConfigurations\\L0.mbconfig",
+              "RelativeToolTip": "ChitraGupt.API\\MLConfigurations\\L0.mbconfig",
+              "Icon": "7f5c38b0-f0bc-4551-a9a8-b4f467cc4670.000012|",
+              "WhenOpened": "2025-04-04T11:19:07.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "L0.evaluate.cs",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\MLConfigurations\\L0.evaluate.cs",
+              "RelativeDocumentMoniker": "ChitraGupt.API\\MLConfigurations\\L0.evaluate.cs",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\MLConfigurations\\L0.evaluate.cs",
+              "RelativeToolTip": "ChitraGupt.API\\MLConfigurations\\L0.evaluate.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T04:28:38.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "L1.consumption.cs",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\MLConfigurations\\L1.consumption.cs",
+              "RelativeDocumentMoniker": "ChitraGupt.API\\MLConfigurations\\L1.consumption.cs",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\MLConfigurations\\L1.consumption.cs",
+              "RelativeToolTip": "ChitraGupt.API\\MLConfigurations\\L1.consumption.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAYwFoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:15:57.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "L1.consumption.cs",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\Qualytics_L1_ConsoleApp\\L1.consumption.cs",
+              "RelativeDocumentMoniker": "Qualytics_L1_ConsoleApp\\L1.consumption.cs",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\Qualytics_L1_ConsoleApp\\L1.consumption.cs",
+              "RelativeToolTip": "Qualytics_L1_ConsoleApp\\L1.consumption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:15:36.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "L0.evaluate.cs",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\Qualytics_L0_ConsoleApp\\L0.evaluate.cs",
+              "RelativeDocumentMoniker": "Qualytics_L0_ConsoleApp\\L0.evaluate.cs",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\Qualytics_L0_ConsoleApp\\L0.evaluate.cs",
+              "RelativeToolTip": "Qualytics_L0_ConsoleApp\\L0.evaluate.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:15:40.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "L0.mbconfig",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\Qualytics_L0_ConsoleApp\\L0.mbconfig",
+              "RelativeDocumentMoniker": "Qualytics_L0_ConsoleApp\\L0.mbconfig",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\Qualytics_L0_ConsoleApp\\L0.mbconfig",
+              "RelativeToolTip": "Qualytics_L0_ConsoleApp\\L0.mbconfig",
+              "Icon": "7f5c38b0-f0bc-4551-a9a8-b4f467cc4670.000012|",
+              "WhenOpened": "2025-04-25T05:15:43.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ReportedIssue.cs",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.Console\\ReportedIssue.cs",
+              "RelativeDocumentMoniker": "ChitraGupt.Console\\ReportedIssue.cs",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.Console\\ReportedIssue.cs",
+              "RelativeToolTip": "ChitraGupt.Console\\ReportedIssue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T18:56:43.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TranslationController.cs",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\Controllers\\TranslationController.cs",
+              "RelativeDocumentMoniker": "ChitraGupt.API\\Controllers\\TranslationController.cs",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\Controllers\\TranslationController.cs",
+              "RelativeToolTip": "ChitraGupt.API\\Controllers\\TranslationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T12:32:58.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GoogleTranslator.cs",
+              "DocumentMoniker": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\Services\\GoogleTranslator.cs",
+              "RelativeDocumentMoniker": "ChitraGupt.API\\Services\\GoogleTranslator.cs",
+              "ToolTip": "C:\\finalBhavisyani\\ChitraGupt\\BhavishyvaniWithDataPrediction\\ChitraGupt.API\\Services\\GoogleTranslator.cs",
+              "RelativeToolTip": "ChitraGupt.API\\Services\\GoogleTranslator.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAxwA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T17:52:05.95Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

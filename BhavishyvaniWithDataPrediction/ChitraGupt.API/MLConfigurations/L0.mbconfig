@@ -1,0 +1,328 @@
+﻿{
+  "Scenario": "Classification",
+  "DataSource": {
+    "Version": 3,
+    "EscapeCharacter": "\"",
+    "ReadMultiLines": true,
+    "KeepDiacritics": false,
+    "KeepPunctuations": false,
+    "AllowQuoting": true,
+    "Type": "TabularFile",
+    "FilePath": "D:\\src\\My Experiments with Truth\\ML\\Qualytics\\BhavishyaVani\\BhavishyaVani\\Data\\Merged.csv",
+    "Delimiter": ",",
+    "DecimalMarker": ".",
+    "HasHeader": true,
+    "ColumnProperties": [
+      {
+        "ColumnName": "PR ID",
+        "ColumnPurpose": "Ignore",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "L0 Level",
+        "ColumnPurpose": "Label",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Reported Problem Code L1",
+        "ColumnPurpose": "Ignore",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Reported Problem Code L2",
+        "ColumnPurpose": "Ignore",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Reported Problem Code L3",
+        "ColumnPurpose": "Ignore",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Translated Short Description",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Translated Description",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Coding Table Revision",
+        "ColumnPurpose": "Ignore",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      }
+    ]
+  },
+  "Environment": {
+    "Type": "LocalCPU",
+    "Version": 1
+  },
+  "RunHistory": {
+    "Version": 3,
+    "Type": "Result",
+    "Trials": [
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.83812010443864227,
+        "RuntimeInSeconds": 2.212,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e6 * e9",
+          "e0": {
+            "InputColumnName": "Translated Short Description",
+            "OutputColumnName": "Translated Short Description"
+          },
+          "e1": {
+            "InputColumnName": "Translated Description",
+            "OutputColumnName": "Translated Description"
+          },
+          "e2": {
+            "InputColumnNames": [
+              "Translated Short Description",
+              "Translated Description"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e3": {
+            "OutputColumnName": "L0 Level",
+            "InputColumnName": "L0 Level",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e6": {
+            "L1Regularization": 0.5484565,
+            "L2Regularization": 3.071176,
+            "LabelColumnName": "L0 Level",
+            "FeatureColumnName": "Features"
+          },
+          "e9": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.83812010443864227,
+        "RuntimeInSeconds": 5.524,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e5 * e9",
+          "e0": {
+            "InputColumnName": "Translated Short Description",
+            "OutputColumnName": "Translated Short Description"
+          },
+          "e1": {
+            "InputColumnName": "Translated Description",
+            "OutputColumnName": "Translated Description"
+          },
+          "e2": {
+            "InputColumnNames": [
+              "Translated Short Description",
+              "Translated Description"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e3": {
+            "OutputColumnName": "L0 Level",
+            "InputColumnName": "L0 Level",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e5": {
+            "L1Regularization": 0.3005084,
+            "L2Regularization": 2.3450494,
+            "LabelColumnName": "L0 Level",
+            "FeatureColumnName": "Features"
+          },
+          "e9": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.835509138381201,
+        "RuntimeInSeconds": 1.987,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e6 * e9",
+          "e0": {
+            "InputColumnName": "Translated Short Description",
+            "OutputColumnName": "Translated Short Description"
+          },
+          "e1": {
+            "InputColumnName": "Translated Description",
+            "OutputColumnName": "Translated Description"
+          },
+          "e2": {
+            "InputColumnNames": [
+              "Translated Short Description",
+              "Translated Description"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e3": {
+            "OutputColumnName": "L0 Level",
+            "InputColumnName": "L0 Level",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e6": {
+            "L1Regularization": 0.25003687,
+            "L2Regularization": 0.97998405,
+            "LabelColumnName": "L0 Level",
+            "FeatureColumnName": "Features"
+          },
+          "e9": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.835509138381201,
+        "RuntimeInSeconds": 3.365,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e6 * e9",
+          "e0": {
+            "InputColumnName": "Translated Short Description",
+            "OutputColumnName": "Translated Short Description"
+          },
+          "e1": {
+            "InputColumnName": "Translated Description",
+            "OutputColumnName": "Translated Description"
+          },
+          "e2": {
+            "InputColumnNames": [
+              "Translated Short Description",
+              "Translated Description"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e3": {
+            "OutputColumnName": "L0 Level",
+            "InputColumnName": "L0 Level",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e6": {
+            "L1Regularization": 0.113989785,
+            "L2Regularization": 0.3127039,
+            "LabelColumnName": "L0 Level",
+            "FeatureColumnName": "Features"
+          },
+          "e9": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.835509138381201,
+        "RuntimeInSeconds": 2.173,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e5 * e9",
+          "e0": {
+            "InputColumnName": "Translated Short Description",
+            "OutputColumnName": "Translated Short Description"
+          },
+          "e1": {
+            "InputColumnName": "Translated Description",
+            "OutputColumnName": "Translated Description"
+          },
+          "e2": {
+            "InputColumnNames": [
+              "Translated Short Description",
+              "Translated Description"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e3": {
+            "OutputColumnName": "L0 Level",
+            "InputColumnName": "L0 Level",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e5": {
+            "L1Regularization": 0.39702988,
+            "L2Regularization": 0.97149616,
+            "LabelColumnName": "L0 Level",
+            "FeatureColumnName": "Features"
+          },
+          "e9": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          }
+        }
+      }
+    ],
+    "Estimators": {
+      "e0": "FeaturizeText",
+      "e1": "FeaturizeText",
+      "e2": "Concatenate",
+      "e3": "MapValueToKey",
+      "e4": "LightGbmMulti",
+      "e5": "LbfgsLogisticRegressionOva",
+      "e6": "LbfgsMaximumEntropyMulti",
+      "e7": "SdcaMaximumEntropyMulti",
+      "e8": "SdcaLogisticRegressionOva",
+      "e9": "MapKeyToValue"
+    },
+    "Schema": "e0 * e1 * e2 * e3 * (e4 + e5 + e6 + e7 + e8) * e9",
+    "MetricName": "MicroAccuracy",
+    "ModelFilePath": "D:\\src\\My Experiments with Truth\\ML\\Qualytics\\BhavishyaVani\\ChitraGupt.API\\MLConfigurations\\L0.mlnet"
+  },
+  "Type": "TrainingConfig",
+  "Version": 5,
+  "TrainingOption": {
+    "Version": 2,
+    "Subsampling": false,
+    "Tuner": "eci-cfo",
+    "Type": "ClassificationTrainingOption",
+    "TrainingTime": 300,
+    "OptimizeMetric": "MicroAccuracy",
+    "LabelColumn": "L0 Level",
+    "AvailableTrainers": [
+      "SDCA",
+      "LBFGS",
+      "LGBM"
+    ],
+    "ValidationOption": {
+      "Version": 0,
+      "Type": "TrainValidateSplitValidationOption",
+      "SplitRatio": 0.1
+    }
+  }
+}

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.105.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChitraGupt.API\ChitraGupt.API.csproj" />
+    <ProjectReference Include="..\Qualytics_L0_ConsoleApp\Qualytics_L0_ConsoleApp.csproj" />
+    <ProjectReference Include="..\Qualytics_L1_ConsoleApp\Qualytics_L1_ConsoleApp.csproj" />
+    <ProjectReference Include="..\Qualytics_L2_ConsoleApp\Qualytics_L2_ConsoleApp.csproj" />
+    <ProjectReference Include="..\Qualytics_L3_ConsoleApp\Qualytics_L3_ConsoleApp.csproj" />
+  </ItemGroup>
+
+</Project>
